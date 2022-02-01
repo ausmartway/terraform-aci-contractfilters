@@ -12,6 +12,6 @@ resource "aci_filter_entry" "filter_entry" {
   name        = each.key
   ether_t     = "ip"
   prot        = each.value.protocol
-  d_from_port = each.vaule.from_port
-  d_to_port   = each.vaule.to_port
+  d_from_port = each.value.from_port
+  d_to_port   = each.value.to_port
 }
