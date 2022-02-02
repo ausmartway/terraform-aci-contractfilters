@@ -4,16 +4,16 @@ variable "tenant_id" {
 }
 variable "openports" {
   default = {
-    http = {
-      from_port = "80",
-      to_port   = "80"
-      protocol  = "tcp",
-    },
-    ssh = {
-      from_port = "22",
-      to_port   = "22",
-      protocol  = "tcp",
-    }
+    # http = {
+    #   from_port = "80",
+    #   to_port   = "80"
+    #   protocol  = "tcp",
+    # },
+    # ssh = {
+    #   from_port = "22",
+    #   to_port   = "22",
+    #   protocol  = "tcp",
+    # }
   }
   description = "List of ports that should be open."
 }
