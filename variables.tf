@@ -1,6 +1,6 @@
 # Define your variables in here.
 variable "tenant_id" {
-  description = "the dn of ACI tenant"
+  description = "the dn of ACI tenant."
 }
 variable "openports" {
   default = {
@@ -16,7 +16,7 @@ variable "openports" {
     # }
   }
   description = <<EOF
-List of ports that should be open. In the format of HCL.eg:
+List of ports that should be open. In the format of HCL, eg:
     # http = {
     #   from_port = "80",
     #   to_port   = "80"
